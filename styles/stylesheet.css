@@ -1,0 +1,193 @@
+html{
+    background-color: #722525;
+    border-style: double;
+    border-width: 50px;
+    background-blend-mode: color-burn;
+}
+
+
+.breakfastimg{
+    background-image: url(../images/frenchtoast.gif);
+    border-style: outset;
+    border-color: #daa520;
+    border-width: 20px;
+}
+
+.lunchimg{
+    background-image: url(../images/burger.gif);
+    border-style: outset;
+    border-color: #daa520;
+    border-width: 20px;
+}
+
+.dinnerimg{
+    background-image: url(../images/bbqribs.gif);
+    border-style: outset;
+    border-color: #daa520;
+    border-width: 20px;
+}
+
+.drinksimg{
+    background-image: url(../images/martini.gif);
+    border-style: outset;
+    border-color: #daa520;
+    border-width: 50px;
+}
+
+.pancakes{
+    height: 300px;
+    width: 300px;
+}
+
+.frenchtoast{
+    height: 150px;
+    width: 150px;
+}
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color:  #FFFFFF;
+}
+
+h2:hover{
+    transform: scale(2.0);
+    margin: 20px;
+}
+
+h3{
+   font-size: 25px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+h4{
+   font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: #daa520;
+   color: #000000;
+}
+
+p{
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.breakfast-grid{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding: 50px;
+}
+
+.pancakes{
+   text-align: center; 
+   margin-left: 80px;  
+}
+
+.pancakes-img{
+   background-image: url(../pancakes.html);
+   text-align: center;
+   border: #daa520;
+   border-radius: 50%;
+   border-width: 20px;
+   border-style: outset;
+}
+
+.omlette{
+   padding-top: 80px;
+}
+
+.sandwich{
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+
+.pizza{
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-top: 100px;
+}
+
+.toast{
+   text-align: center;
+}
+
+.frenchtoast-img{
+   height: 300px;
+   width: 200px;
+   border: #daa520;
+   border-radius: 100%;
+   border-width: 20px;
+   border-style: outset;
+}
+
+.pancakes-page{
+   height: 350px;
+   width: 100%;
+   align-items: center;
+   object-fit: fill;
+   text-align: center;
+}
+
+.pancakes1{
+   height: 300px;
+   width: 400px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-style: outset;
+   border-width: 20px;
+   border-color: #daa520;
+}
+
+.sides{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.flexbox-drinks{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.flexbox-mixed-drinks{
+   height: 150px;
+   width: 150px;
+   background-color: #daa520;
+   border-width: 20px;
+   border-style: outset;
+   border-color: #daa520;
+   padding-top: 20px;
+}
+
+.drinks-1{
+   align-items: center;
+   align-content: center;
+}
+
+.drinks-2{
+   align-items: center;
+   align-content: center;
+}
+
+.flexbox-wine{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.flexbox-white-wine{
+   margin-right: 40px;
+}
+
+.flexbox-red-wine{
+   margin-left: 40px;
+}
+
+.soft-drinks{
+   margin-bottom: 40px;
+}
